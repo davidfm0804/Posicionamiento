@@ -1,0 +1,35 @@
+body{
+    width: 1260px;
+    height: 100%;
+    margin:45px 0 0 0;
+}
+main{
+    background-color: black;
+    overflow:hidden;
+}
+#cajaIzq{
+    /*width: 780px;800 px de inicio menos 10 del padding left y otros 10 del padding right*/
+    /*height: 370px;400px de incio menos 30 del padding top*/
+    background-color: red;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#cajaDer{
+    /*width: 370px;400 px de inicio menos 30px del padding left*/
+    /*height: 350px;400px de inicio menos 50px del padding top*/
+    padding-left: 30px;
+    padding-top: 50px;
+    float: left;
+    margin-right: 20px;
+    background-color: blueviolet;
+}
+footer{
+    width: 1260px;
+    height: 100px;
+    clear: both;
+    background-color: blue;
+}

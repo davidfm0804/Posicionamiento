@@ -1,0 +1,60 @@
+body{
+    width: 1260px;
+    height: 100%;
+    margin:45px 0 0 0;
+}
+main{
+    background-color: black;
+    /*overflow:hidden;Para que la caja se ajuste al contenido*/
+    display: flow-root;
+}
+
+#cajaIzq{
+    width: 780px;/*800 px de inicio menos 10 del padding left y otros 10 del padding right*/
+    height: 370px;/*400px de incio menos 30 del padding top*/
+    background-color: red;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#cajaIzq form{
+    padding-left: 70px;
+}
+#cajaIzq input[type="text"]{
+    width: 490px;
+    height: 2em;
+    padding-left: 10px;
+    display: block;
+}
+#cajaIzq input[type="submit"]{
+    width: 150px;
+    margin-top: 10px;
+    height: 2em;
+}
+#cajaDer{
+    position: static;
+    width: 370px;/*400 px de inicio menos 30px del padding left*/
+    height: 350px;/*400px de inicio menos 50px del padding top*/
+    padding-left: 30px;
+    padding-top: 50px;
+    float: left;
+    margin-right: 20px;
+    background-color: blueviolet;
+}
+#relativo{
+    position: relative;
+    top:20px;
+    right:10px;
+    height: 100px;
+    background-color: red;
+}
+footer{
+    width: 1256px;
+    height: 96px;
+    border: 2px solid black;
+    clear: both;/*Rompemos el flotamiento y la caja se coloca debajo*/
+    background-color: blue;
+}
