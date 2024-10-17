@@ -44,7 +44,7 @@ main{
     background-color: blueviolet;
 }
 footer{
-    width: 1260px;
+    width: 1256px;
     height: 96px;
     border: 2px solid black;
     clear: both;/*Rompemos el flotamiento y la caja se coloca debajo*/
