@@ -37,7 +37,7 @@ main{
 #cajaDer{
     position: relative;/*Sino pongo la caja en relative el cuadro absotluto no toma como padre la caja*/
     width: 370px;/*400 px de inicio menos 30px del padding left*/
-    height: 350px;/*400px de inicio menos 50px del padding top*/
+    height: 850px;/*400px de inicio menos 50px del padding top*/
     padding-left: 30px;
     padding-top: 50px;
     float: left;

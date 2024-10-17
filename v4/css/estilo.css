@@ -44,12 +44,21 @@ main{
     margin-right: 20px;
     background-color: blueviolet;
 }
-#pegajosa{
-    position: sticky;
+#relativo{
+    position: relative;
     top:20px;
     right:10px;
     height: 100px;
     background-color: red;
+}
+#relativo2{
+    position: relative;
+    height: 100px;
+    background-color: blue;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 footer{
     width: 1256px;
