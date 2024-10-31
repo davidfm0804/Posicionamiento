@@ -5,31 +5,48 @@ body{
 }
 main{
     background-color: black;
-    overflow:hidden;
+    /*overflow:hidden;Para que la caja se ajuste al contenido*/
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flow-root;
 }
+
 #cajaIzq{
-    /*width: 780px;800 px de inicio menos 10 del padding left y otros 10 del padding right*/
-    /*height: 370px;400px de incio menos 30 del padding top*/
+    width: 60%;
+    height: 375px;
     background-color: red;
     float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+}
+#cajaIzq form{
+    padding-left: 70px;
+}
+#cajaIzq input[type="text"]{
+    width: 490px;
+    height: 2em;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-top:30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: block;
+}
+#cajaIzq input[type="submit"]{
+    width: 150px;
+    margin-top: 10px;
+    height: 2em;
 }
 #cajaDer{
-    /*width: 370px;400 px de inicio menos 30px del padding left*/
-    /*height: 350px;400px de inicio menos 50px del padding top*/
-    padding-left: 30px;
-    padding-top: 50px;
+    width: 29%;
+    height: 350px;
+    padding-left: 3%;
+    padding-top: 5%;
     float: left;
-    margin-right: 20px;
+    margin-right: 2%;
     background-color: blueviolet;
 }
 footer{
-    width: 1256px;
-    height: 100px;
+    width: 99.7%;
+    height: 96px;
+    border: 2px solid black;
     clear: both;
     background-color: blue;
 }
